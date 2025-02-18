@@ -1,0 +1,24 @@
+.employee-table th,
+.employee-table td {
+  text-align: center; /* Center align text */
+  vertical-align: middle; /* Align vertically */
+}
+
+.employee-table th {
+  background-color: #1d4ed8 !important; /* Blue header */
+  color: white !important;
+}
+
+.employee-table tbody tr:nth-child(even) {
+  background-color: #f8f9fa; /* Light gray alternate rows */
+}
+
+.employee-table tbody tr:hover {
+  background-color: #e2e6ea !important; /* Slightly darker hover effect */
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}

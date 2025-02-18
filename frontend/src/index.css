@@ -1,0 +1,168 @@
+/* Global styles */
+:root {
+  --blue: #d81d8a; /* Primary blue */
+  --light-blue: #93c5fd; /* Light blue for hover effects */
+  --soft-blue: #eef4ff; /* Light blue background for the form */
+}
+
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  padding: 0;
+  margin: 0;
+}
+
+/* Form container */
+.form-container {
+  max-width: 500px; /* Center the form */
+  margin: 20px auto;
+  padding: 20px;
+  background-color: var(--soft-blue); /* Light blue background */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styling */
+.employee-form {
+  width: 100%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.form-title {
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--blue);
+  margin-bottom: 20px;
+}
+
+/* Form group */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+/* Label */
+.form-label {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+/* Input fields */
+.form-input {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+/* Submit button */
+.submit-btn {
+  background-color: var(--blue);
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: var(--light-blue);
+}
+/* Employee List Container */
+.list-container {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: var(--soft-blue);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Title Styling for Employee List */
+.list-title {
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--blue);
+  margin-bottom: 20px;
+}
+
+/* Table Styling */
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.employee-table th {
+  background-color: var(--blue);
+  color: white;
+  padding: 12px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.employee-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.employee-table tr:nth-child(even) {
+  background-color: var(--light-gray);
+}
+
+.employee-table tr:hover {
+  background-color: var(--hover-gray);
+}
+
+/* Action Buttons */
+.action-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.action-btn {
+  background-color: var(--blue);
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.action-btn:hover {
+  background-color: var(--light-blue);
+}
+
+/* No Data Message */
+.no-data {
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+  padding: 15px;
+  font-style: italic;
+}

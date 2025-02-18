@@ -1,0 +1,68 @@
+--- AddEmployeeForm Styles ---
+
+/* Container for the Add Employee form */
+.add-employee-form {
+    max-width: 800px;  /* Set max width */
+    margin: 20px auto; /* Center the form */
+    padding: 20px;
+    background-color: var(--soft-blue); /* Soft blue background */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form Title */
+  .add-employee-form h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--blue);
+    margin-bottom: 20px;
+  }
+  
+  /* Form Grouping */
+  .add-employee-form .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  /* Label */
+  .add-employee-form label {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  /* Input Fields */
+  .add-employee-form input[type="text"],
+  .add-employee-form input[type="email"],
+  .add-employee-form input[type="number"],
+  .add-employee-form input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .add-employee-form input[type="text"]:focus,
+  .add-employee-form input[type="email"]:focus,
+  .add-employee-form input[type="number"]:focus,
+  .add-employee-form input[type="date"]:focus {
+    border-color: var(--blue); /* Focus border color */
+  }
+  
+  .add-employee-form button {
+    background-color: var(--blue);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-employee-form button:hover {
+    background-color: var(--light-blue);
+  }
+  

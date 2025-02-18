@@ -1,0 +1,55 @@
+/* Custom Bootstrap Overrides */
+.bg-custom {
+    background-color: #fff !important;
+  }
+  
+  .text-custom {
+    color: #9F1F63 !important;
+  }
+  
+  /* Custom Logo Styling */
+  .logo {
+    width: 80px; /* Adjust size as needed */
+    height: auto;
+  }
+  
+  /* Styling for Cards */
+  .card {
+    border-radius: 10px;
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  .title{
+    color: #9F1F63 !important;
+    text-align: center;
+  }
+  .text-custom {
+    color: #9F1F63 !important;
+    text-align: center;
+  }
+  /* Custom Button Styling */
+.btn-custom {
+  background-color: #9f1f6386 !important; /* Main color */
+  color: white !important; /* White text */
+  border: none; /* Remove border */
+  padding: 10px 20px; /* Adjust padding */
+  font-size: 16px; /* Increase font size */
+  font-weight: bold;
+  border-radius: 5px; /* Rounded corners */
+  transition: all 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+/* Button Hover Effect */
+.btn-custom:hover {
+  background-color: #020202 !important; /* Darker shade on hover */
+  transform: scale(1.05); /* Slight increase in size */
+}
+
+/* Full-width button */
+.btn-custom-full {
+  width: 100%; /* Make button full width */
+}
+
+  
